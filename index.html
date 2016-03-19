@@ -3,7 +3,10 @@
 <head>
 	<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Goldway International</title>
 
 </head>
@@ -12,30 +15,40 @@
 	<container>
 
 		<nav>
+	<li><a id="book-now" href="#">Book Your Stay &nbsp;</a></li>
 			<ul>
-				<li><a href="index.html"><img src="assets/img/logo.jpg"></a></li>
+				<li><a href="index.html"><img id="logo" src="assets/img/logo.jpg"></a></li>
 				<li><a href="accommodation.html">Hotels &amp; Suites</a></li>
 				<li><a href="restaurant-charlotte.html">Restaurant Charlotte</a></li>
 				<li><a href="#">Facilities&nbsp;<i class="icon-caret-down"></i></a></li>
 				<li><a href="contact.html">Contact</a></li>
-				<li><button id="book-button">Book Your Stay &nbsp; <i class="icon-long-arrow-right"></i></button</li>
+				
 			</ul>
-			
+
+		
+		
 		</nav>
+		<img src="assets/img/hotel.jpg">
 		<div id="hero">
-			<img src="assets/img/hotel.jpg" width="100%">
-			<h2>World Finest Collection</h2>
-			<hr width="5%" />
+
+			<h2>World Finest Hotel Collection</h2>
+		<!-- 	<hr width="5%" /> -->
+			
 			<h1>Goldway International Hotels</h1>
-			<hr width="30%" />
+		<!-- 	<hr width="30%" /> -->
 		</div>
-		<div id="blurb">
-			<p>We are located in the heart of cities worldwide with a calming, upscale ambiance and access to theaters, brilliant shopping, midtown business and fine dining.<br/><br/>
+		
+		<div id="intro-content">	
+			<h2 class="blurb-header">Welcome To Goldway</h2>
+			<div id="blurb">
 
-			Revel in the skyline from one of our spacious guest rooms and suites, luxuriously appointed with custom bedding and advanced technology. Experience our distinctive service, fitness center, business center and concierge staff ready to help you with the hottest tickets, directions and other arrangements.</p>
-			<p>The hotelís elegant Restaurant Charlotte serves contemporary European cuisine all day long and is ideal for pre or post show dining.<br/><br/>
+				<p>We are located in the heart of cities worldwide with a calming, upscale ambiance and access to theaters, brilliant shopping, midtown business and fine dining.<br/><br/>
 
-			Goldway International Hotels offers newly renovated meeting spaces and are the only hotels in world with an on-site meeting facilities approved by the International Association of Conference Centers (IACC). Centrally located near midtown business, our versatile and exquisite function spaces span seven floors. </p>
+				Revel in the skyline from one of our spacious guest rooms and suites, luxuriously appointed with custom bedding and advanced technology. Experience our distinctive service, fitness center, business center and concierge staff ready to help you with the hottest tickets, directions and other arrangements.</p>
+				<p>The hotelís elegant Restaurant Charlotte serves contemporary European cuisine all day long and is ideal for pre or post show dining.<br/><br/>
+
+				Goldway International Hotels offers newly renovated meeting spaces and are the only hotels in world with an on-site meeting facilities approved by the International Association of Conference Centers (IACC). Centrally located near midtown business, our versatile and exquisite function spaces span seven floors. </p>
+			</div>
 		</div>
 		<div id="selection">
 			<div id="inner-selection">
@@ -46,15 +59,18 @@
 						See Rooms &nbsp; <i class="icon-long-arrow-right"></i>
 					</div>
 				</div>
+
 				<img class="square-img" src="assets/img/room2_thumb.jpg">
-				<div class="square">
+								<img class="sqaure-img" src="assets/img/kitchen_thumb.jpg">
+
+			<div class="square">
 					<h3>Dining</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 					<div class="regular-button">
 						See Restaurant &nbsp; <i class="icon-long-arrow-right"></i>
 					</div>
+
 				</div>
-				<img class="sqaure-img" src="assets/img/kitchen_thumb.jpg">
 			</div>
 		</div>
 		<div id="facility-thumbs">
@@ -64,19 +80,25 @@
 		</div>
 		<footer>
 			<div id="upper-foot">
-				<h4>Connect with us</h4>
-				<p>Social Media Channels</p>
-				<img src="assets/img/social_01.png">
-				<img src="assets/img/social_02.png">
-				<img src="assets/img/social_03.png">
-				<img src="assets/img/social_05.png">
-				<img src="assets/img/social_06.png">
-				<h4>Newsletter sign up</h4>
-				<p>Sign up for special offers</p>
-				<form>
-					<input type="text" placeholder="Enter your email">
-					<input type="submit">
-				</form>
+				<div id="social-media">
+					<h4>Connect with us</h4>
+					<p>Social Media Channels</p>
+					<img src="assets/img/social_01.png">
+					<img src="assets/img/social_02.png">
+					<img src="assets/img/social_03.png">
+					<img src="assets/img/social_05.png">
+					<img src="assets/img/social_06.png">
+				</div>
+				<div id="newsletter">
+					<h4>Newsletter sign up</h4>
+					<p>Sign up for special offers</p>
+					<form>
+						<input type="text" placeholder="Enter your email">
+						<button type="submit" class="submit-button">
+  <i class="icon-long-arrow-right"></i>
+</button>
+					</form>
+				</div>
 			</div>
 			<div id="lower-foot">
 				<ul>
